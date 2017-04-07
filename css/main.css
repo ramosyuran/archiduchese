@@ -95,6 +95,66 @@ textarea {
    Author's custom styles
    ========================================================================== */
 
+/*global rules*/
+
+body{
+  width: 90%;
+  margin: auto;
+}
+
+*{
+  margin: 0;
+}
+
+html{
+  height: 100%;
+}
+
+figure, img{
+  width: 100%;
+  margin: 0;
+}
+
+/*comun rules*/
+
+.desktop, .header2{
+  display: none;
+}
+
+/*header*/
+
+.header1 figure{
+  width: 45%;
+  height: 100%;
+}
+
+.header1{
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  justify-content: flex-end;
+  position: fixed;
+  background: white;
+  top: 0;
+}
+
+.down{
+  display: none;
+}
+
+/*.mobtab:hover .down{
+  display: block;
+}*/
+
+.mobtab figure{
+  width: 30%;
+}
+
+
+
+
+
+
 
 
 
