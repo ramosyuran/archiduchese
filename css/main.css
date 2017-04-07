@@ -147,8 +147,31 @@ figure, img{
 }*/
 
 .mobtab figure{
-  width: 30%;
+  width: 20%;
 }
+
+h1{
+  margin-top: 15%;
+  font-family: times;
+}
+
+.size{
+  width: 85%;
+}
+
+.size a{
+  width: 20%;
+  background: lightgrey;
+  border-radius: 3px;
+  padding: 3%;
+  text-decoration: none;
+  color: inherit;
+}
+
+.chauss{
+  margin-top: 5%;
+}
+
 
 
 
