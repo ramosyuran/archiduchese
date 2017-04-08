@@ -276,17 +276,39 @@ form{
   margin-bottom: 20px;
 }
 
-.img{
-  background-image: url('chauss1.jpg');
-  width: 80px;
-}
-
 @media (min-width: 490px) {
+
   .chauss{
     width: 220px;
   }
 
-  .end2 input[]
+  .end1 article:nth-child(5),
+  .end1 article:nth-child(6){
+    display: flex;
+  }
+
+  .end1{
+    justify-content: space-around;
+  }
+
+  .end1 article{
+    display: flex;
+    flex-direction: row;
+    width: 200px;
+    height: 80px;
+    border-radius: 6px;
+    border: 1px lightgrey solid;
+    background: #eed;
+  }
+
+  .end1 figure{
+    width: 30%;
+  }
+
+  .pag p{
+    text-align: inherit;
+    font-size: 13px;
+  }
 
 }
 
