@@ -232,7 +232,7 @@ h1{
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin: 10px 0;
+  margin: 10px auto;
 }
 
 .end1 figure{
@@ -288,7 +288,7 @@ form{
   }
 
   .end1{
-    justify-content: space-around;
+    justify-content: center;
   }
 
   .end1 article{
@@ -309,9 +309,38 @@ form{
     text-align: inherit;
     font-size: 13px;
   }
-
 }
 
+@media (min-width: 630px) {
+
+  .chauss{
+    width: 250px;
+  }
+}
+
+@media (min-width: 768px) {
+
+  .chauss{
+    width: 230px;
+  }
+
+  .end1 article{
+    width: 260px;
+    height: 70px;
+    align-items: flex-end;
+    align-content: center;
+    margin-bottom: 25px;
+  }
+
+  .end1 figure{
+    width: 40%;
+  }
+
+  .pag{
+    margin-bottom: 10px;
+  }
+
+}
 
 
 
