@@ -443,6 +443,7 @@ form{
   .header1{
     display: flex;
     align-items: center;
+    padding-top: 10px;
   }
 
   .desktop ul{
@@ -457,6 +458,7 @@ form{
 
   .header2{
     justify-content: center;
+    padding-top: 40px;
   }
 
   .bar figure{
@@ -497,6 +499,70 @@ form{
 
   .header2 article:nth-child(1) h2{
     color: black;
+  }
+
+  h1{
+    margin-top: 5%;
+  }
+
+  .size{
+    position: fixed;
+    right: 25px;
+    float: right;
+    display: flex;
+    flex-wrap: wrap;
+    width: 10%;
+  }
+
+  .line, .linee{
+    margin: 3px;
+  }
+
+  .end2{
+    width: 95%;
+    margin: 20px auto;
+    justify-content: space-between;
+  }
+
+  .end2 p, .end2 label, .end2 a{
+    font-size: 10px;
+  }
+
+}
+
+@media (min-width: 1050px) {
+
+  .chauss{
+    width: 220px;
+  }
+
+  .end1 article{
+    width: 320px;
+  }
+}
+
+@media (min-width: 1200px) {
+
+  .bar{
+    width: 180px;
+  }
+
+  .chauss{
+    width: 20%;
+  }
+
+  .end1 article{
+    width: 30%;
+    height: 120px;
+  }
+
+}
+
+@media (min-width: 1400px) {
+
+  .end1 article{
+    width: 30%;
+    height: 180px;
   }
 
 }
