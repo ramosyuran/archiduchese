@@ -117,7 +117,9 @@ figure, img{
 
 /*comun rules*/
 
-.desktop, .header2, .chauss ul{
+.desktop, .header2, .chauss ul,
+.end1 article:nth-child(5),
+.end1 article:nth-child(6){
   display: none;
 }
 
@@ -190,6 +192,7 @@ h1{
 .chaussettes{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
 }
 
 .chauss{
@@ -206,8 +209,38 @@ h1{
 }
 
 .chauss p{
-  text-align: right;
+  text-align: center;
+  background: #eee;
+  width: 50px;
+  float: right;
+  border-radius: 4px;
+  color: grey;
+  font-size: 12px;
+  padding: 3px;
 }
+
+.end1{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.end1 article{
+  width: 35%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.end1 ul{
+  padding: 0;
+}
+
+.end1 li{
+  font-size: 12px;
+}
+
 
 
 
