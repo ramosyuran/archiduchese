@@ -117,7 +117,7 @@ figure, img{
 
 /*comun rules*/
 
-.desktop, .header2{
+.desktop, .header2, .chauss ul{
   display: none;
 }
 
@@ -142,10 +142,6 @@ figure, img{
   display: none;
 }
 
-/*.mobtab:hover .down{
-  display: block;
-}*/
-
 .mobtab figure{
   width: 20%;
 }
@@ -153,24 +149,67 @@ figure, img{
 h1{
   margin-top: 15%;
   font-family: times;
+  width: 100%;
 }
 
 .size{
-  width: 85%;
+  width: 100%;
+  text-align: center;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-.size a{
-  width: 20%;
-  background: lightgrey;
-  border-radius: 3px;
-  padding: 3%;
+.line a, .linee a{
   text-decoration: none;
-  color: inherit;
+  font-size: 12px;
+}
+
+.line a{
+  color: grey;
+}
+
+.linee a{
+  color: #eee;
+}
+
+.line{
+  background: #eee;
+}
+
+.linee{
+  background: grey;
+}
+
+.line, .linee{
+  margin: 0 5px 10px 0;
+  width: 60px;
+  border-radius: 4px;
+  padding: 3px;
+}
+
+.chaussettes{
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .chauss{
-  margin-top: 5%;
+  margin: 20px 0;
+  font-family: times, serif;
+  width: 45%;
 }
+
+.chauss h3{
+  font-style: italic;
+  font-weight: normal;
+  font-size: 14px;
+  text-align: center;
+}
+
+.chauss p{
+  text-align: right;
+}
+
+
 
 
 
