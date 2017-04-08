@@ -170,7 +170,7 @@ h1{
   color: grey;
 }
 
-.linee a{
+.linee a, .line a:hover{
   color: #eee;
 }
 
@@ -178,7 +178,7 @@ h1{
   background: #eee;
 }
 
-.linee{
+.linee, .line:hover{
   background: grey;
 }
 
@@ -198,7 +198,7 @@ h1{
 .chauss{
   margin: 20px 0;
   font-family: times, serif;
-  width: 45%;
+  width: 150px;
 }
 
 .chauss h3{
@@ -224,23 +224,62 @@ h1{
   flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
+  margin: 60px 0 20px 0;
 }
 
 .end1 article{
-  width: 35%;
+  width: 150px;
   display: flex;
   flex-direction: column;
   align-items: center;
+  margin: 10px 0;
 }
 
-.end1 ul{
-  padding: 0;
+.end1 figure{
+  width: 40%;
 }
 
-.end1 li{
+.pag p{
   font-size: 12px;
+  font-style: italic;
+  text-align: center;
+  color: grey;
 }
 
+.end2 p, .end2 a, .end2 label, .end2 input{
+  font-style: italic;
+  color: black;
+  text-decoration: none;
+}
+
+.end2 p, .end2 a{
+font-size: 9px;
+}
+
+.end2 input[name="email"]{
+  font-size: 10px;
+  padding: 4px;
+}
+
+.end2 input[name=""submit]{
+  padding: 4px;
+}
+
+.end2 label{
+  font-size: 11px;
+}
+
+.end2{
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 490px) {
+  .chauss{
+    width: 220px;
+  }
+
+}
 
 
 
