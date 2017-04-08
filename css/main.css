@@ -259,14 +259,16 @@ font-size: 9px;
 .end2 input[name="email"]{
   font-size: 10px;
   padding: 4px;
-}
-
-.end2 input[name=""submit]{
-  padding: 4px;
+  width: 60%;
 }
 
 .end2 label{
   font-size: 11px;
+}
+
+form{
+  display: flex;
+  justify-content: center;
 }
 
 .end2{
@@ -274,10 +276,17 @@ font-size: 9px;
   margin-bottom: 20px;
 }
 
+.img{
+  background-image: url('chauss1.jpg');
+  width: 80px;
+}
+
 @media (min-width: 490px) {
   .chauss{
     width: 220px;
   }
+
+  .end2 input[]
 
 }
 
