@@ -125,6 +125,10 @@ figure, img{
 
 /*header*/
 
+.header1{
+  width: 100%;
+}
+
 .header1 figure{
   width: 45%;
   height: 100%;
@@ -278,6 +282,15 @@ form{
 
 @media (min-width: 490px) {
 
+  .header1 figure{
+    width: 30%;
+    height: 100%;
+  }
+
+  .mobtab figure{
+    width: 18%;
+  }
+
   .chauss{
     width: 220px;
   }
@@ -320,12 +333,50 @@ form{
 
 @media (min-width: 768px) {
 
+  .header1 figure{
+    width: 25%;
+    height: 100%;
+  }
+
   .chauss{
-    width: 230px;
+    width: 190px;
+    margin-right: 5%;
+  }
+
+  .chaussettes{
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .bigimg{
+    width: 400px;
+  }
+
+  .chauss ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    border-top: 1px #eee solid;
+  }
+
+  .chauss li{
+    display: flex;
+    flex-direction: column;
+    margin-right: 5px;
+    background: #6B000F;
+    padding: 1px 4px;
+    font-size: 12px;
+    border-radius: 2px;
+    color: #eee;
+  }
+
+  .chauss li span:nth-child(2){
+    border-top: 1px #eee solid;
   }
 
   .end1 article{
-    width: 260px;
+    width: 280px;
     height: 70px;
     align-items: flex-end;
     align-content: center;
@@ -340,8 +391,115 @@ form{
     margin-bottom: 10px;
   }
 
+  .end2{
+    display: flex;
+    text-align: left;
+    align-items: center;
+  }
+
 }
 
+@media (min-width: 992px) {
+
+  body{
+    width: 100%;
+  }
+
+  .container{
+    width: 90%;
+    margin: auto;
+  }
+
+  .mobtab{
+    display: none;
+  }
+
+  .desktop, .header2{
+    display: flex;
+  }
+
+  .header1 figure{
+    margin: 5%;
+  }
+
+  .desktop sup{
+    background: #FFABE3;
+    color: #6B000F;
+    margin-left: 1px;
+    padding: 1px;
+  }
+
+  .header1, .header2{
+    background: #eee;
+    position: inherit;
+  }
+
+  .desktop ul{
+    display: flex;
+    justify-content: space-between;
+    width: 300px;
+  }
+
+  .header1{
+    display: flex;
+    align-items: center;
+  }
+
+  .desktop ul{
+    list-style: none;
+  }
+
+  .desktop li span{
+    background: white;
+    border-radius: 4px;
+    padding: 6px 10px;
+  }
+
+  .header2{
+    justify-content: center;
+  }
+
+  .bar figure{
+    width: 30%;
+  }
+
+  .bar{
+    display: flex;
+    width: 150px;
+    justify-content: flex-start;
+    background: lightgrey;
+    margin-right: 8px;
+    border-radius: 5px;
+  }
+
+  .bar h2{
+    font-size: 18px;
+    font-style: italic;
+    font-weight: normal;
+    font-family: times, serif;
+    color: #7D7D7D;
+  }
+
+  .bar p{
+    color: #7D7D7D;
+    font-size: 10px;
+    font-style: italic;
+  }
+
+  .bar section:hover p, .bar section:hover h2{
+    color: black;
+    cursor: pointer;
+  }
+
+  .header2 article:nth-child(1){
+    background: white;
+  }
+
+  .header2 article:nth-child(1) h2{
+    color: black;
+  }
+
+}
 
 
 
