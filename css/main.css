@@ -123,10 +123,21 @@ figure, img{
   display: none;
 }
 
+a{
+  color: inherit;
+  text-decoration: none;
+}
+
 /*header*/
 
 .header1{
   width: 100%;
+}
+
+.desktop a:hover{
+  background: white;
+  border-radius: 4px;
+  padding: 6px 10px;
 }
 
 .header1 figure{
