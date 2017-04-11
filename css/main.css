@@ -100,6 +100,7 @@ textarea {
 body{
   width: 90%;
   margin: auto;
+  font-family: times, serif;
 }
 
 *{
@@ -234,62 +235,140 @@ h1{
   padding: 3px;
 }
 
-.end1{
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
-  align-items: center;
-  margin: 60px 0 20px 0;
-}
+/*PAGE BLOG*/
 
-.end1 article{
-  width: 150px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 10px auto;
-}
+  .containerblog{
+    width: 100%;
+    margin: auto;
+  }
 
-.end1 figure{
-  width: 40%;
-}
+  .center{
+    margin-top: 65px;
+  }
 
-.pag p{
-  font-size: 12px;
-  font-style: italic;
-  text-align: center;
-  color: grey;
-}
+  .center h3{
+    font-size: 22px;
+    width: 100%;
+    margin-top: 10%;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+  }
 
-.end2 p, .end2 a, .end2 label, .end2 input{
-  font-style: italic;
-  color: black;
-  text-decoration: none;
-}
+  .center h3:hover{
+    color: #02859C;
+  }
 
-.end2 p, .end2 a{
-font-size: 9px;
-}
+  .comennt{
+    font-size: 12px;
+    color: grey;
+    margin-bottom: 4%;
+  }
 
-.end2 input[name="email"]{
-  font-size: 10px;
-  padding: 4px;
-  width: 60%;
-}
+  .comennt span{
+    text-decoration: underline;
+    cursor: pointer;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+  }
 
-.end2 label{
-  font-size: 11px;
-}
+  .comennt span:hover{
+    color: black;
+  }
 
-form{
-  display: flex;
-  justify-content: center;
-}
+  .center figure{
+    margin-top: 4%;
+    border: 1px lightgrey solid;
+    padding: 8px;
+    width: 95%;
+  }
 
-.end2{
-  text-align: center;
-  margin-bottom: 20px;
-}
+  .button a{
+    background: #02859C;
+    color: white;
+    padding: 6px;
+    -webkit-transition: all .5s ease; /* Safari and Chrome */
+    -moz-transition: all .5s ease; /* Firefox */
+    -ms-transition: all .5s ease; /* IE 9 */
+    -o-transition: all .5s ease; /* Opera */
+    transition: all .5s ease;
+  }
+
+  .button a:hover{
+    background: #026F9C;
+  }
+
+  .button{
+    margin: 8% auto;
+  }
+
+  aside{
+    display: none;
+  }
+
+/*END PAGE BLOG*/
+
+  .end1{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    margin: 60px 0 20px 0;
+  }
+
+  .end1 article{
+    width: 150px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 10px auto;
+  }
+
+  .end1 figure{
+    width: 40%;
+  }
+
+  .pag p{
+    font-size: 12px;
+    font-style: italic;
+    text-align: center;
+    color: grey;
+  }
+
+  .end2 p, .end2 a, .end2 label, .end2 input{
+    font-style: italic;
+    color: black;
+    text-decoration: none;
+  }
+
+  .end2 p, .end2 a{
+  font-size: 9px;
+  }
+
+  .end2 input[name="email"]{
+    font-size: 10px;
+    padding: 4px;
+    width: 60%;
+  }
+
+  .end2 label{
+    font-size: 11px;
+  }
+
+  form{
+    display: flex;
+    justify-content: center;
+  }
+
+  .end2{
+    text-align: center;
+    margin-bottom: 20px;
+  }
 
 @media (min-width: 490px) {
 
@@ -385,6 +464,18 @@ form{
   .chauss li span:nth-child(2){
     border-top: 1px #eee solid;
   }
+
+  /*blog page*/
+
+  .center h3{
+    margin-top: 5%;
+  }
+
+  .containerblog{
+    width: 85%;
+  }
+
+  /*end blog page*/
 
   .end1 article{
     width: 280px;
@@ -528,6 +619,41 @@ form{
   .line, .linee{
     margin: 3px;
   }
+
+  /*blog page */
+
+  aside{
+    display: flex;
+    flex-direction: column;
+    margin-top: 5%;
+  }
+
+  .center{
+    margin-top: 0;
+  }
+
+  .center h3, aside{
+    margin-top: 15px;
+  }
+
+  aside ul{
+    list-style: none;
+    margin-bottom: 2%;
+  }
+
+  aside span{
+    margin-bottom: 10px;
+  }
+
+  aside h4{
+    margin: 0;
+  }
+
+  .containerblog{
+    display: flex;
+  }
+
+  /*end blog page */
 
   .end2{
     width: 95%;
